@@ -1,0 +1,109 @@
+@font-face {
+  font-family: paytone-one;
+  src: url(paytone-one.regular.ttf);
+}
+@font-face {
+  font-family: quicksand_bold;
+  src: url(quicksand_bold.otf);
+}
+
+html, body {
+	padding: 0.5em; 
+	background: #0d1117; 
+	color: #fa3; 
+	font-family: quicksand_bold;
+}
+
+body {
+  
+}
+	
+h1, h2, h3, h4, h5, h6 {
+	font-family: paytone-one; 
+	letter-spacing: 1.5px;
+	min-width: 150px; 
+	width: 150px; 
+}
+h1 {
+	color: #777; 
+	border-bottom: 15px solid #333; 
+	border-bottom-right-radius:30px;
+	border-bottom-left-radius:30px;
+	padding: 0 0 0em 0.5em; 
+}
+h2 {color: #ffffba;}
+h3 {color: #ffdfba}
+
+a {
+	text-decoration: none; 
+	color: #ccc; 
+	diplay: block;
+  }
+
+ol, ul {
+	padding: 0; 
+	list-style-type: none;
+}
+ul ul {
+	list-style-type: none;
+}
+li {
+	line-height: 1.8;
+}
+
+.flex{
+display: flex;
+flex-wrap: wrap;
+}
+.flex div{
+padding-left: 1.5em; 
+}
+
+/* LUO ################################################################################################### */
+/*
+#nav_classes{
+position: absolute; bottom: 25px; left: 25px; 
+}
+*/
+
+#luo_classes{
+clear: both;
+width: 100%; 
+}
+
+#feedback_and_inbox {padding-left: 1em; text-align: left; }
+#feedback_and_inbox a {color: white}
+#feedback:before{content: "🏁";}
+#inbox:before{content: "🌻";}
+#complaints:before{content: "⚖️";}
+
+.slash {color: green; font-size: 160%; position: relative; top: 5px; display: inline}
+
+.class_title a {color: #45b6fe; font-size: 100%}
+
+#BUSI642, #BUSI530, #ACCT212{
+	margin-left: 1em; 
+}
+
+li.week_due {color: white; list-style-type: "❌ "}
+li.week_due a.task_due {color: #0f0;}
+li.week_due_next a.done {color: #0f0;}
+li.week_due_next, li.week_due_next a {color: yellow; list-style-type:"🟡 "}
+li {list-style-type: none}
+li.done, a.done {list-style-type: "✅ "; color: #666}
+li.done a {color: #666}
+
+/*.classparts li {line-height: 1;padding-left: 1.5em}*/
+#first .classparts li {padding-left: 0}
+.classparts li:before {content:"🟠";font-size: 50%} 
+.classparts a {color: #666; font-variant: small-caps} 
+	td#citations {width: 40%; padding-left: 300px}
+	#citations h2, #citations a {color: #999} 
+	#citations h2 {font-size: 120%} 
+
+
+
+/* DB repliesNeeded ################################################################## */
+
+.repliesNeeded {color: #0f0; font-size: 70%}
+.needAttention {color: yellow; font-size: 70%}
