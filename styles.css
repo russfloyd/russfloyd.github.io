@@ -47,6 +47,9 @@ ol, ul {
 ul ul {
 	list-style-type: none;
 }
+ul ul ul{
+	padding-left: 0.3in; 
+}
 li {
 	line-height: 1.8;
 }
